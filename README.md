@@ -61,31 +61,7 @@ pip install -r requirements.txt
 3. **Add DIAL API Key as Environment Variable**
 4. **Run user service** (run `docker-compose.yml`)
 
-## 🔧 Configuration
-
-### Tool Configuration
-
-Tools are configured using OpenAI's function calling specification:
-
-```python
-TOOL_CONFIG = {
-    "type": "function",
-    "function": {
-        "name": "tool_name",
-        "description": "Tool description",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "param1": {
-                    "type": "string",
-                    "description": "Parameter description"
-                }
-            },
-            "required": ["param1"]
-        }
-    }
-}
-```
+### If the task in the main branch is hard for you, then switch to the `with-detailed-description` branch
 
 ## 🔍 API Reference
 
